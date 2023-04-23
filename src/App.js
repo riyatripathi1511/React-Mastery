@@ -3,6 +3,9 @@ import React from 'react';
 import './App.css';
 import HelloFunctional from './component/HelloFunctional';
 import HelloClass from './component/HelloClass';
+// import HelloES6 from './component/HelloFunctionalES6';
+
+import {HelloFunctionalES6} from './component/HelloFunctionalES6';
 function App() {
   return (
     <div className="App">
@@ -11,6 +14,8 @@ function App() {
      <HelloFunctional></HelloFunctional>
      <HelloFunctional/>
      <HelloClass></HelloClass>
+     {/* <HelloES6/> */}
+     <HelloFunctionalES6/>
     </div> 
   );
 }
